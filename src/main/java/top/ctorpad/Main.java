@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class Main {
 
-    @RequestMapping("/")
+    @RequestMapping("/public/api")
     String home() {
         return "Hello World 6!";
     }
